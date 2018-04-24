@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {HashRouter as Router, Route, Link} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 import Home from './js/Page/Home'
 
 class App extends Component {
@@ -18,8 +18,7 @@ class App extends Component {
                   <h2>Tim's Blog</h2>
                 </Link>
                 <Link to="/1">Intro</Link>
-                <Link to="/2">Background</Link>
-                <Link to="/3">Contact</Link>
+                <Link to="/2">Contact</Link>
 
               </div>
               <div className="main">
@@ -32,16 +31,6 @@ class App extends Component {
         </div>
       </div>
     );
-  }
-}
-
-class Repos extends Component {
-  render() {
-    return (
-      <div>
-        <h2>Repos</h2>
-      </div>
-    )
   }
 }
 

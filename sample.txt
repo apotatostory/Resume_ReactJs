@@ -1,3 +1,6 @@
 1.用react建立bootstrap4 card 的元件
 2.製作登入畫面
 3.用資料庫來建立menu
+4.用React製作Text元件
+5.連結mongodb 
+6.試試看能否使用ajax打express
