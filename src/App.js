@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 import Home from './js/Page/Home'
+import Qrcode from './js/Page/Qrcode'
 
 class App extends Component {
   render() {
@@ -19,12 +20,14 @@ class App extends Component {
                 </Link>
                 <Link to="/1">Intro</Link>
                 <Link to="/2">Contact</Link>
+                <Link to="/3">QRCode</Link>
 
               </div>
               <div className="main">
                 <Route exact path="/" component={Home}/>
                 <Route path="/1" component={Home}/>
                 <Route path="/2" component={About}/>
+                <Route path="/3" component={Qrcode}/>
               </div>
             </div>
           </Router>
